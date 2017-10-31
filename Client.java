@@ -37,7 +37,7 @@ public class Client {
 		 * 实例化Socket的过程就是连接的过程,所以
 		 * 若服务端没有响应这里会抛出异常.
 		 */
-		System.out.println("正在连接服务端....");
+		System.out.println("正在连接服务端.....");
 		socket = new Socket("localhost",8088);
 		System.out.println("已连接服务端!");
 	}
